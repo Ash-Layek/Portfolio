@@ -1,5 +1,5 @@
 import "./Projects.css";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import imageSrc from "../../assets/code-coding.gif";
 import Github from "../../assets/Octicons-mark-github.svg"
@@ -52,8 +52,8 @@ const About = () => {
           />
 
        <div className="absolute inset-0 flex items-start justify-start">
-  <a href="https://github.com/Ash-Layek/Python-Web-Scraper" target="_blank" className="flex items-start justify-start">
-    <img src={Github} className="animate-bounce bg-transparent w-14 lg:w-24" />
+  <a href="https://github.com/Ash-Layek/Python-Web-Scraper" target="_blank" rel="noreferrer" className="flex items-start justify-start">
+    <img src={Github} className="animate-bounce bg-transparent w-14 lg:w-24" alt="githubLogo" />
     <p className="text-white text-xl font-custom mt-5 lg:text-2xl " id="yes_Button">
       
     </p>
@@ -67,7 +67,7 @@ const About = () => {
             <div className="h-1/2 bg-slate-800 shadow-inner rounded-b-lg">
               <div className="text-slate-400  block">
                 <h1 className="whitespace-normal lg:text-3xl sm:text-xl flex justify-center">
-                Web Scraper   <a href="https://www.python.org/" target="_blank"><img src={PythonLogo} className=" w-6 lg:w-14" /></a>
+                Web Scraper   <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src={PythonLogo} className=" w-6 lg:w-14" /></a>
                 </h1>
               </div>
 
@@ -91,7 +91,7 @@ const About = () => {
                 className="h-full w-full block rounded-md shadow-2xl hover:opacity-75 object-cover"
               />
               <div className=" absolute inset-0 flex items-start justify-start lg:justify-end text-slate-400">
-                <p> <a href="https://github.com/Ash-Layek/Java_Server" target="_blank" > <img src={Github}   className="animate-bounce w-14 lg:w-24" /> 
+                <p> <a href="https://github.com/Ash-Layek/Java_Server" target="_blank" > <img src={Github}   className="animate-bounce w-14 lg:w-24" alt="githubLogo" /> 
                 </a></p>
               </div>
             </div>

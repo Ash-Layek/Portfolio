@@ -1,9 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
 import Home from "./components/Home/Home"
 import Projects from "./components/Projects/Projects"
-import Navbar from "./components/Navbar/NavBar"
 import Contact from "./components/Contact/Contact"
 
 function App() {

@@ -14,7 +14,7 @@ const NavBar = () => {
           
         }
 
-        if (section != "home"){
+        if (section !== "home"){
 
             const section = document.getElementById("navbarLine");
 
