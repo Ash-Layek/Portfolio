@@ -1,5 +1,5 @@
 import Button from "./Button";
-import NavBar from "../Navbar/NavBar";
+
 
 const Home = () => {
 
