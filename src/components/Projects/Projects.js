@@ -66,7 +66,7 @@ const About = () => {
             <div className="h-1/2 bg-slate-800 shadow-inner rounded-b-lg">
               <div className="text-slate-400  block">
                 <h1 className="whitespace-normal lg:text-3xl sm:text-xl flex justify-center">
-                Web Scraper   <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src={PythonLogo} className=" w-6 lg:w-14" alt="LogoPython" /></a>
+                Web Scraper   <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src={PythonLogo} className=" w-6 ml-3 lg:w-14" alt="LogoPython" /></a>
                 </h1>
               </div>
 
