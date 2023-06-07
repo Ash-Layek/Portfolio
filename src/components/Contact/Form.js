@@ -10,9 +10,9 @@ const Form = () => {
     return(
         <div className="flex justify-center items-end lg:items-center h-1/2 mt-8">
 <div class=" md:w-1/3 w-full  rounded-lg p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] bg-purple-800 ">
-  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+  <form name="contact" method="post">
     
-  <input type="hidden" name="form-name" value="contact" />
+    <input type="hidden" name="form-name" value="contact" />
     
     <div class="relative mb-6" data-te-input-wrapper-init>
     
