@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       <div className="flex flex-col mt-40 text-7xl font-bold ml-3 text-slate-400">
-        <h1>Hi There! My name is Achraf.</h1>
+        <h1>Hi There! My name is KAML.</h1>
         <p>I'm a <span className="text-purple-700"> Developer</span></p>
         <p>Located in Montreal.</p>
       </div>
