@@ -22,7 +22,6 @@ const About = () => {
   const handleLoad = () => {
     console.log("Image loaded successfully");
   };
-  
 
   useEffect(() => {
     const containerElement = document.getElementById("projects");
