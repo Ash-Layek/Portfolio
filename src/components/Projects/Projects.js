@@ -66,7 +66,7 @@ const About = () => {
             <div className="h-1/2 bg-slate-800 shadow-inner rounded-b-lg">
               <div className="text-slate-400  block">
                 <h1 className="whitespace-normal lg:text-3xl sm:text-xl flex justify-center">
-                Web Scraper   <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src={PythonLogo} className=" w-6 lg:w-14" /></a>
+                Web Scraper   <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src={PythonLogo} className=" w-6 lg:w-14" alt="LogoPython" /></a>
                 </h1>
               </div>
 
@@ -90,14 +90,14 @@ const About = () => {
                 className="h-full w-full block rounded-md shadow-2xl hover:opacity-75 object-cover"
               />
               <div className=" absolute inset-0 flex items-start justify-start lg:justify-end text-slate-400">
-                <p> <a href="https://github.com/Ash-Layek/Java_Server" target="_blank" > <img src={Github}   className="animate-bounce w-14 lg:w-24" alt="githubLogo" /> 
+                <p> <a href="https://github.com/Ash-Layek/Java_Server" target="_blank"  rel="noreferrer"> <img src={Github}   className="animate-bounce w-14 lg:w-24" alt="githubLogo" /> 
                 </a></p>
               </div>
             </div>
             <div className="h-1/2 bg-slate-800 shadow-inner rounded-b-lg">
               <div className="text-slate-400  block">
                 <h1 className="whitespace-normal lg:text-3xl sm:text-xl flex justify-center">
-                Game: Client - Server Communication <a href="https://www.java.com/en/" target="_blank"> <img src={JavaLogo} className=" w-10 lg:w-16"/></a> 
+                Game: Client - Server Communication <a href="https://www.java.com/en/" target="_blank" rel="noreferrer"> <img src={JavaLogo} className=" w-10 lg:w-16" alt="javaLogo"/></a> 
                 </h1>
               </div>
 
