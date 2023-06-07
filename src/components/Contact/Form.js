@@ -10,12 +10,12 @@ const Form = () => {
     return(
         <div className="flex justify-center items-end lg:items-center h-1/2 mt-8">
 <div class=" md:w-1/3 w-full  rounded-lg p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] bg-purple-800 ">
-  <form name="contactForm" method="post" netlify>
+  <form name="contactForm" method="post" data-netlify="true">
     
     
     <div class="relative mb-6" data-te-input-wrapper-init>
     
-    <label for="" className="flex justify-start">  Name  </label>
+    <label for="" className="flex justify-start" name="form-name">  Name  </label>
       <input
         type="text"
         class=" mt-2 peer block min-h-[auto] w-full rounded bg-slate-50 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none  dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
@@ -26,7 +26,7 @@ const Form = () => {
 
     <div class="relative mb-6" data-te-input-wrapper-init>
     
-    <label for="" className="flex justify-start">  Email  </label>
+    <label for="" className="flex justify-start" name="form-email">  Email  </label>
       <input
         type="text"
         class=" mt-2 peer block min-h-[auto] w-full rounded bg-slate-50 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none  dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
@@ -38,7 +38,7 @@ const Form = () => {
 
     <div class="relative mb-6" data-te-input-wrapper-init>
     
-    <label for="" className="flex justify-start">  Phone Number   </label>
+    <label for="" className="flex justify-start" name="form-phoneNumber">  Phone Number   </label>
       <input
         type="tel"
         class="mt-2 peer block min-h-[auto] w-full rounded bg-slate-50 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear  focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none  dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
@@ -50,7 +50,7 @@ const Form = () => {
     
     <div class="" data-te-input-wrapper-init>
     
-    <label for="" className="flex justify-start">  Message   </label>
+    <label for="" className="flex justify-start" name="form-message">  Message   </label>
       
       <textarea className=" resize rounded-md h-40 w-full mt-2 "></textarea>
      
