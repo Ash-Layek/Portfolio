@@ -1,0 +1,49 @@
+.screen{
+
+    height: 100vh;
+    
+    background-color : linear-gradient(-45deg, #1E313B, #471e4e, #4a494a, #622d90);
+
+    animation : linear 15s;
+
+    
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+#projects {
+	opacity: 0;
+	transition: opacity 0.9s ease;
+  }
+
+
+
+  #yes_Button {
+	opacity: 0;
+	animation: fade-in 2s forwards;
+	
+  }
+  
+  @keyframes fade-in {
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+  
+  

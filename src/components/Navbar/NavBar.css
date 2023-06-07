@@ -1,0 +1,22 @@
+#navbarLine {
+    border-radius: 10%;
+    animation: borderTransition 1.0s  ;
+  }
+  
+  @keyframes borderTransition {
+    0% {
+     border-radius: 15%;
+     border-bottom: 40px;
+       
+    }
+
+    50%{
+        border-radius: 12%;
+
+    }
+    100% {
+    
+      border-color: purple;
+    }
+  }
+  
