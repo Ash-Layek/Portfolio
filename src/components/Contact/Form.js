@@ -22,6 +22,7 @@ const Form = () => {
         class=" mt-2 peer block min-h-[auto] w-full rounded bg-slate-50 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none  dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
         id="exampleInput7"
         name="name"
+        required
          />
      
     </div>
@@ -36,6 +37,7 @@ const Form = () => {
         name="email"
         required
         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+        title="Please Respect Email Format"
          />
      
     </div>
