@@ -62,7 +62,7 @@ return () =>  {window.removeEventListener('scroll', handleScroll)}
           <button onClick={() => scrollToSection("about")}>Projects</button>
         </li>
         <li className="text-purple-700 px-2">
-            <button onClick={() => scrollToSection("hire")}> Hire me</button>
+            <button onClick={() => scrollToSection("hire")}> Contact Me</button>
         </li>
       </ul>
       </div>
